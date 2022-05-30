@@ -1,5 +1,8 @@
 window.onload = function(){
   var a = 0;
+  var i =0;
+  var myNum;
+  var words;
   for ( a = 0; a <= 10; a++){
     if(a % 2 == 0){
       text = "even";
@@ -11,9 +14,9 @@ window.onload = function(){
 
   }
 
-  let myNum = prompt("Please give a number between 5 and 20: ");
+  myNum = prompt("Please give a number between 5 and 20: ");
   if(myNum >= 5 && myNum <= 20){
-    let i = 1;
+    i = 1;
     do{
       window.alert(i);
     i++;
@@ -25,7 +28,7 @@ window.onload = function(){
 
   }
 
-  let words = ["Accounting", "Algebra", "Programming", "Art", "Data_Analytics"];
+  words = ["Accounting", "Algebra", "Programming", "Art", "Data_Analytics"];
   words.forEach(alert(" " + words));
 
 
